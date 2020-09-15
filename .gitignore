@@ -1,0 +1,6 @@
+.idea
+
+*.class
+*.info
+*.properties
+*.jar
