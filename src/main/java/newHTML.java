@@ -1,4 +1,3 @@
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -16,7 +15,7 @@ public class newHTML {
     Document doc;
 
 
-    public  newHTML (String adresshtml) {
+    public newHTML(String adresshtml) {
         this.adresshtml = adresshtml;
 
 
@@ -31,11 +30,9 @@ public class newHTML {
                 this.doc = Jsoup.parse(new File(adresshtml), "ISO-8859-1"); //"M:\\tver.jsprav.htm"
             }
 
-        } catch (IOException  e) {
+        } catch (IOException e) {
             System.out.println("Incorect adres of html");
-        }
-
-        catch (IllegalArgumentException  e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Incorect adress of link" + e.toString());
         }
 
@@ -53,7 +50,7 @@ public class newHTML {
 */
 
 
-public void FindEmail(String cssQuery,ArrayList<String> emaillist) throws NullPointerException {
+    public void FindEmail(String cssQuery, ArrayList<String> emaillist) throws NullPointerException {
 
         // Elements extends ArrayList<Element>.
 
@@ -66,18 +63,14 @@ public void FindEmail(String cssQuery,ArrayList<String> emaillist) throws NullPo
 
             // System.out.println("Нашли атрибут емел: " + atribute); // выводим ссылки
             System.out.println("Нашли текст емел: " + text); // выводим ссылки
-         //   System.out.println("Нашли значение емел: " + val); // выводим ссылки
+            //   System.out.println("Нашли значение емел: " + val); // выводим ссылки
             emaillist.add(aElement.text());
         }
 
     }
 
 
-
-
-
-
-    public void FindAllUrl(String site, Map<String, String> Bigmap,Map<String, String> smallmap) throws NullPointerException  {
+    public void FindAllUrl(String site, Map<String, String> Bigmap, Map<String, String> smallmap) throws NullPointerException {
 
 
         Elements aElements = doc.getElementsByTag("a");
@@ -87,35 +80,34 @@ public void FindEmail(String cssQuery,ArrayList<String> emaillist) throws NullPo
 
             String text = aElement.text();
 
-           // System.out.println( "Нашли ссылку: " + href); // выводим ссылки
+            // System.out.println( "Нашли ссылку: " + href); // выводим ссылки
 
             /// Заносим все ссылки со страницы в массив array
 
 
             String adrrSite;
-            if (!href.contains("http")) {adrrSite =site + href; }
-            else {adrrSite = href;}
+            if (!href.contains("http")) {
+                adrrSite = site + href;
+            } else {
+                adrrSite = href;
+            }
 
-         //   System.out.println( "Скомпоновали  ссылку: " + adrrSite);
-
+            //   System.out.println( "Скомпоновали  ссылку: " + adrrSite);
 
 
             if (!smallmap.containsKey(adrrSite)) { // основное действие метода
-                    if (!Bigmap.containsKey(adrrSite)) {
+                if (!Bigmap.containsKey(adrrSite)) {
 
-                        smallmap.put(adrrSite, "-");
-                        System.out.println("Перенесли ссылку в глобальный массив: " + adrrSite);
-                    }
-                }// если в мапе нет ключа то вносим адрес !!!
-
+                    smallmap.put(adrrSite, "-");
+                    System.out.println("Перенесли ссылку в глобальный массив: " + adrrSite);
+                }
+            }// если в мапе нет ключа то вносим адрес !!!
 
 
         }
     }
 
-    }
-
-
+}
 
 
 ////////////////////
