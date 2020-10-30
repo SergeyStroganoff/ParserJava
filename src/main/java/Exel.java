@@ -12,8 +12,9 @@ import java.util.ArrayList;
 public class Exel {
 
     String filePathName;
-    private Workbook book;
-    private Sheet sheet;
+    private final Workbook book;
+    private final Sheet sheet;
+    public static int countOfStringEmails;
 
     public Exel(String filePathName) {
         this.filePathName = filePathName;
@@ -22,13 +23,23 @@ public class Exel {
 
         // Нумерация начинается с нуля
         Row row = sheet.createRow(0);
-
         Cell name = row.createCell(0);
-        name.setCellValue("Emails");
+        name.setCellValue("Emails value");
+        countOfStringEmails = 0;
+    }
+
+
+    public  void writeEmailStringIntoExellFile (String stringOfEmail){
+
+        Row row = sheet.createRow(countOfStringEmails + 1);
+        Cell name = row.createCell(0);
+        name.setCellValue(stringOfEmail);
+        countOfStringEmails++;
+        System.out.println("Write in Row: " + (countOfStringEmails) + " " + stringOfEmail);
 
     }
 
-    public void WriteArrayInExell(@org.jetbrains.annotations.NotNull ArrayList<String> emaillist) {
+    public void writeArrayInExell(@org.jetbrains.annotations.NotNull ArrayList<String> emaillist) { // для записи арея по завершении
 
         System.out.println("Size of array " + emaillist.size());
 
@@ -59,36 +70,7 @@ public class Exel {
     }
 
 
-    @SuppressWarnings("deprecation")
-    public void writeIntoExcel(@org.jetbrains.annotations.NotNull ArrayList<String> emaillist, String pathName) throws IOException {
-        Workbook book = new HSSFWorkbook();
-        Sheet sheet = book.createSheet("Mails");
 
-        // Нумерация начинается с нуля
-        Row row = sheet.createRow(0);
-
-
-        Cell name = row.createCell(0);
-        name.setCellValue("Emails");
-
-        System.out.println("Size of array " + emaillist.size());
-
-        for (int i = 0; i < emaillist.size(); i++) {
-
-            Row row1 = sheet.createRow(i + 1);
-            Cell name1 = row1.createCell(0);
-            name1.setCellValue(emaillist.get(i));
-            System.out.println("Write in Row: " + (i + 1) + " " + emaillist.get(i));
-
-        }
-
-        // Записываем всё в файл
-        File file = new File(pathName);
-        FileOutputStream outFile = new FileOutputStream(file);
-        book.write(outFile);
-        System.out.println("Created file: " + file.getAbsolutePath());
-
-    }
 
 
 }

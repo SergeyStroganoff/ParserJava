@@ -8,49 +8,59 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 
+import static java.lang.System.out;
+
 
 public class newHTML {
 
-    String adresshtml; // adress site
+    String adressOfHtml; // adress site
     Document doc;
 
-
-    public newHTML(String adresshtml) {
-        this.adresshtml = adresshtml;
-
+    public newHTML(String adressOfHtml, Exel newExel) {
+        this.adressOfHtml = adressOfHtml;
 
         try {
-
-            if (adresshtml.contains("http")) {
-
-                this.doc = Jsoup.connect(adresshtml).get();
-
+            if (adressOfHtml.contains("http")) {
+                this.doc = Jsoup.connect(adressOfHtml)
+                        .userAgent("Mozilla/5.0 Chrome/26.0.1410.64 Safari/537.31")
+                        // .ignoreHttpErrors(true)
+                        .maxBodySize(1024*1024*3)
+                        .followRedirects(true)
+                        .timeout(100000)
+                        .ignoreContentType(true)
+                        .get();
             } else {
-
-                this.doc = Jsoup.parse(new File(adresshtml), "ISO-8859-1"); //"M:\\tver.jsprav.htm"
+                this.doc = Jsoup.parse(new File(adressOfHtml), "ISO-8859-1"); //"M:\\tver.jsprav.htm"
             }
-
         } catch (IOException e) {
-            System.out.println("Incorect adres of html");
-        } catch (IllegalArgumentException e) {
-            System.out.println("Incorect adress of link" + e.toString());
+            System.out.println("Incorect adres of html" + e.toString());
+            if (e.toString().contains("timed") || e.toString().contains("503")) { //Connection timed out: no further information))
+                out.println("Зафиксировали бееее ! от сервера");
+                newExel.saveExel();
+                System.exit(0);
+            };
+        }
+
+    }
+
+    public void findEmailOnPageAndWrite(String cssQuery, Exel newExel) throws NullPointerException { // необходимо разбити выдаватпросто искомый элемент
+
+        // Elements extends ArrayList<Element>.
+
+        System.out.println("Заходим в процедуру поиска емайл ");
+        Elements aElements = doc.select(cssQuery); // a[href*=mailto], "span.value.email"
+        for (Element aElement : aElements) {
+            //   String atribute = aElement.attr();
+            String val = aElement.val();
+            String text = aElement.text();
+            newExel.writeEmailStringIntoExellFile(text);
         }
 
     }
 
 
-/* set and get
 
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-*/
-
-
-    public void FindEmail(String cssQuery, ArrayList<String> emaillist) throws NullPointerException {
+    public void findEmailonPage(String cssQuery, ArrayList<String> listOfEmail) throws NullPointerException { // необходимо разбити выдаватпросто искомый элемент
 
         // Elements extends ArrayList<Element>.
 
@@ -64,44 +74,31 @@ public class newHTML {
             // System.out.println("Нашли атрибут емел: " + atribute); // выводим ссылки
             System.out.println("Нашли текст емел: " + text); // выводим ссылки
             //   System.out.println("Нашли значение емел: " + val); // выводим ссылки
-            emaillist.add(aElement.text());
+            listOfEmail.add(aElement.text());
         }
 
     }
 
 
-    public void FindAllUrl(String site, Map<String, String> Bigmap, Map<String, String> smallmap) throws NullPointerException {
+    public void FindAllUrl(String site, Map<String, String> bigMapOfHref, Map<String, String> smallmap) throws NullPointerException {
 
 
         Elements aElements = doc.getElementsByTag("a");
 
         for (Element aElement : aElements) {
             String href = aElement.attr("href");
-
             String text = aElement.text();
 
-            // System.out.println( "Нашли ссылку: " + href); // выводим ссылки
+//             System.out.println( "Нашли ссылку: " + href); // выводим ссылки
+//             Заносим все ссылки со страницы в массив array
 
-            /// Заносим все ссылки со страницы в массив array
-
-
-            String adrrSite;
-            if (!href.contains("http")) {
-                adrrSite = site + href;
-            } else {
-                adrrSite = href;
-            }
-
-            //   System.out.println( "Скомпоновали  ссылку: " + adrrSite);
-
-
-            if (!smallmap.containsKey(adrrSite)) { // основное действие метода
-                if (!Bigmap.containsKey(adrrSite)) {
-
-                    smallmap.put(adrrSite, "-");
-                    System.out.println("Перенесли ссылку в глобальный массив: " + adrrSite);
+            href = href.contains("http") ? href : site + href;
+            if (!smallmap.containsKey(href)) { // основное действие метода
+                if (!bigMapOfHref.containsKey(href)) {
+                    smallmap.put(href, "-");
+                    System.out.println("Перенесли ссылку в глобальный массив: " + href);
                 }
-            }// если в мапе нет ключа то вносим адрес !!!
+            }   // если в мапе нет ключа то вносим адрес !!!
 
 
         }
@@ -109,7 +106,5 @@ public class newHTML {
 
 }
 
-
-////////////////////
 
 
