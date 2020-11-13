@@ -8,6 +8,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 
 public class Exel {
 
@@ -39,17 +41,12 @@ public class Exel {
 
     }
 
-    public void writeArrayInExell(@org.jetbrains.annotations.NotNull ArrayList<String> emaillist) { // для записи арея по завершении
+    public void writeArrayInExell(@org.jetbrains.annotations.NotNull Set<String> arayOfAllemails) {
 
-        System.out.println("Size of array " + emaillist.size());
+        System.out.println("Size of array " + arayOfAllemails.size());
 
-        for (int i = 0; i < emaillist.size(); i++) {
-
-            Row row1 = sheet.createRow(i + 1);
-            Cell name1 = row1.createCell(0);
-            name1.setCellValue(emaillist.get(i));
-            System.out.println("Write in Row: " + (i + 1) + " " + emaillist.get(i));
-
+        for (String s : arayOfAllemails) {
+            writeEmailStringIntoExellFile(s);
         }
     }
 

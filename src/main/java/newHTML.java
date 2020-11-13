@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
+import java.util.Set;
 
 import static java.lang.System.out;
 
@@ -34,10 +35,21 @@ public class newHTML {
             }
         } catch (IOException e) {
             System.out.println("Incorect adres of html" + e.toString());
-            if (e.toString().contains("timed") || e.toString().contains("503")) { //Connection timed out: no further information))
+            if (e.toString().contains("timed") || e.toString().contains("503") ) { //Connection timed out: no further information)) //
                 out.println("Зафиксировали бееее ! от сервера");
+
+                newExel.writeArrayInExell(Parser.listOfALLEmails);
                 newExel.saveExel();
-                System.exit(0);
+                //System.exit(0);
+
+
+                try {
+                    Thread.sleep(10000);
+                } catch (InterruptedException interruptedException) {
+                    interruptedException.printStackTrace();
+                }
+                return;
+
             };
         }
 
@@ -60,20 +72,18 @@ public class newHTML {
 
 
 
-    public void findEmailonPage(String cssQuery, ArrayList<String> listOfEmail) throws NullPointerException { // необходимо разбити выдаватпросто искомый элемент
+    public void findEmailonPage(String cssQuery, Set<String> listOfEmail) throws NullPointerException { // необходимо разбити выдаватпросто искомый элемент
 
         // Elements extends ArrayList<Element>.
 
+        if (doc == null) return;
         System.out.println("Заходим в процедуру поиска емайл ");
         Elements aElements = doc.select(cssQuery); // a[href*=mailto], "span.value.email"
         for (Element aElement : aElements) {
             //   String atribute = aElement.attr();
             String val = aElement.val();
             String text = aElement.text();
-
-            // System.out.println("Нашли атрибут емел: " + atribute); // выводим ссылки
             System.out.println("Нашли текст емел: " + text); // выводим ссылки
-            //   System.out.println("Нашли значение емел: " + val); // выводим ссылки
             listOfEmail.add(aElement.text());
         }
 
@@ -82,7 +92,7 @@ public class newHTML {
 
     public void FindAllUrl(String site, Map<String, String> bigMapOfHref, Map<String, String> smallmap) throws NullPointerException {
 
-
+        if (doc == null) return;
         Elements aElements = doc.getElementsByTag("a");
 
         for (Element aElement : aElements) {

@@ -1,27 +1,32 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 
-public class parser {
+public class Parser {
+
+    public static Set<String> listOfALLEmails = new HashSet<>();
 
 
     public static void main(String[] args) {
 
-        ArrayList<String> listOfEmailsOnCurrentPage = new ArrayList<>();
-        String site = "https://lihoslavl.jsprav.ru";// "M:\\tver.jsprav.htm"; //"https://tver.jsprav.ru";
+
+        String site =  "https://lihoslavl.jsprav.ru";   //"https://lihoslavl.jsprav.ru";// "M:\\tver.jsprav.htm"; //"https://tver.jsprav.ru";
 
         Map<String, String> bigMapOfHref = new HashMap<>();
         Map<String, String> smallMapOfHref = new HashMap<>();
 
         bigMapOfHref.put(site, "-"); // инициализируем большой map адресом сайта и значением непроверенной сыылки
-        Exel newExel = new Exel("D:\\mail.xls"); // инициализируем  новый файл эксель
 
+
+        Date curentData=new Date();
+        final String filePathname = "D:\\mail" + curentData.getTime()+".xls";
+        Exel newExel = new Exel(filePathname); // инициализируем  новый файл эксель
+
+        Random random = new Random();
         while (bigMapOfHref.containsValue("-")) {
 
             try {
-                Thread.sleep(3208);// пауза !!!!!!!!!!!!!!!!!
+                int nanosecundToSleep = random.nextInt(10) ;
+                Thread.sleep(nanosecundToSleep);// случайная пауза !!!!!!!!!!!!!!!!!
             }
             catch (InterruptedException e) {
                 e.printStackTrace();
@@ -34,14 +39,19 @@ public class parser {
                 String key = pair.getKey();            //ключ - адрес сайта или страницы
                 String value = pair.getValue();        //значение
 
-                if (value.equals("-") && key.contains(site)) { // переходим по ссылке только внутри заданного сайта и если еще не отработана
+                if (value.equals("-") && key.contains(site) ) { //  && key.contains(site) ---     переходим по ссылке только внутри заданного сайта и если еще не отработана
 
                     System.out.println("Переходим по ссылке: " + key + "Со значением " + value);
                     newHTML newPage = new newHTML(key, newExel);
                     try {
-//                        newPage.findEmailonPage("span.value.email", listOfEmailsOnCurrentPage); // извлекаем емайл и помещаем в масив listOfEmailsOnCurrentPage// fuyfg
-//                        newPage.findEmailonPage("a[href*=mailto]", listOfEmailsOnCurrentPage);
-                          newPage.findEmailOnPageAndWrite("span.value.email",newExel);      // пишим найденный емейл сразу же в файл эксель
+
+                        ///////////////////TODO
+
+
+                       newPage.findEmailonPage("span.value.email", listOfALLEmails); // извлекаем емайл и помещаем в масив listOfEmailsOnCurrentPage// fuyfg
+                       newPage.findEmailonPage("a[href*=mailto]", listOfALLEmails);
+//                     newPage.findEmailOnPageAndWrite("span.value.email",newExel);      // пишим найденный емейл сразу же в файл эксель
+
                     } catch (NullPointerException e) {
                         System.out.println("Ошибка поиска email");
                     }
@@ -64,12 +74,8 @@ public class parser {
 
 
         // пишем емыйлы в файл
-
-
-//        System.out.println("Write to file");
-//        Exel newExel = new Exel("D:\\mail.xls");
-//        newExel.writeArrayInExell(listOfEmailsOnCurrentPage);
-          newExel.saveExel();
+        newExel.writeArrayInExell(listOfALLEmails);
+        newExel.saveExel();
         System.out.println("Finish");
 
     }
