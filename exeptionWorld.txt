@@ -1,0 +1,15 @@
+void
+loans
+jobs
+pogoda
+expert
+voenkomatyi-i-komissariatyi
+gosudarstvo
+sanepidemstantsii
+spravochno-informatsionnyie-sistemyi
+obrazovanie-i-nauka
+biblioteki
+pochta-telegraf
+zhivotnyie-i-rasteniya
+remesla-i-hudozhestvennyie-promyislyi/
+comment

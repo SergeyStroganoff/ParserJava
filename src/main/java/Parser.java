@@ -10,7 +10,7 @@ public class Parser {
     public static void main(String[] args) {
 
 
-        String site = "https://lihoslavl.jsprav.ru";   //"https://lihoslavl.jsprav.ru";// "M:\\tver.jsprav.htm"; //"https://tver.jsprav.ru";
+        String site = "https://staritsa.jsprav.ru";   //"https://lihoslavl.jsprav.ru";// "M:\\tver.jsprav.htm"; //"https://tver.jsprav.ru";
 
         Map<String, String> bigMapOfHref = new HashMap<>();
         Map<String, String> smallMapOfHref = new HashMap<>();
@@ -23,6 +23,7 @@ public class Parser {
         Exel newExel = new Exel(filePathname); // инициализируем  новый файл эксель
         Random random = new Random();
         Proxy superProxy = new Proxy("M:\\Програмирование\\MyProjects\\ParserHTML\\proxy.txt");
+        ExceptionWorld exceptionWorld = new ExceptionWorld("M:\\Програмирование\\MyProjects\\ParserHTML\\exeptionWorld.txt");
 
 
 
@@ -38,7 +39,7 @@ public class Parser {
                 String key = pair.getKey();            //ключ - адрес сайта или страницы
                 String value = pair.getValue();        //значение
 
-                if (value.equals("-") && key.contains(site) && !key.contains("void") &&  !key.contains("loans") &&  !key.contains("jobs") ) { //  && key.contains(site) ---     переходим по ссылке только внутри заданного сайта и если еще не отработана
+                if (value.equals("-") && key.contains(site) && !exceptionWorld.isContainExceptionWorld(key) ) { //   переходим по ссылке только внутри заданного сайта и если еще не отработана
 
 
                     try {

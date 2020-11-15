@@ -1,0 +1,360 @@
+IP адрес	Порт	Страна, Город	Скорость	Тип	Анонимность	Последнее обновление
+138.68.60.8	3128	United States Santa Clara	5100 мс	HTTP	Высокая	17 секунд
+138.68.60.8	8080	United States Santa Clara	5100 мс	HTTP	Высокая	18 секунд
+103.107.92.1	52827	India New Delhi	3260 мс	HTTP	Высокая	21 секунда
+138.68.240.218	8080	United States Santa Clara	780 мс	HTTP	Высокая	37 секунд
+138.68.161.14	8080	United Kingdom London	320 мс	HTTP	Высокая	38 секунд
+81.18.34.98	42535	Kazakstan	5100 мс	HTTP	Высокая	56 секунд
+36.92.114.210	8081	Indonesia Bekasi	4720 мс	HTTP	Нет	1 минута
+36.84.100.165	34432	Indonesia Surabaya	5100 мс	SOCKS4	Высокая	1 минута
+79.132.205.34	61731	Iran	1980 мс	SOCKS4	Высокая	1 минута
+190.171.218.40	56220	Bolivia Santa Cruz	4360 мс	SOCKS4	Высокая	1 минута
+165.139.252.55	8080	United States Kokomo	620 мс	HTTP	Нет	1 минута
+177.190.170.11	60120	Brazil An?polis	4500 мс	SOCKS4	Высокая	1 минута
+200.212.2.71	61283	Brazil	4460 мс	SOCKS4	Высокая	1 минута
+200.80.227.234	4145	Argentina Buenos Aires	1540 мс	SOCKS4	Высокая	1 минута
+91.98.108.189	4145	Iran	4300 мс	SOCKS4	Высокая	1 минута
+176.235.99.114	43919	Turkey Bursa	2520 мс	SOCKS4	Высокая	1 минута
+202.62.11.106	8080	Indonesia Jakarta	2620 мс	HTTP	Нет	1 минута
+197.221.90.54	56810	Ghana	780 мс	SOCKS4	Высокая	1 минута
+174.70.241.14	24392	United States	4800 мс	SOCKS4	Высокая	1 минута
+103.210.142.54	4145	India Hosur	2160 мс	SOCKS4	Высокая	1 минута
+96.82.74.129	34032	United States Windsor	1100 мс	SOCKS4	Высокая	1 минута
+170.80.91.5	4145	Costa Rica	2060 мс	SOCKS4	Высокая	1 минута
+103.251.225.18	35101	India	5100 мс	HTTP	Высокая	1 минута
+174.70.241.10	4145	United States	5100 мс	SOCKS4, SOCKS5	Высокая	1 минута
+181.15.154.156	52033	Argentina San Salvador	4600 мс	SOCKS4	Высокая	1 минута
+66.135.227.178	4145	United States Honolulu	5100 мс	SOCKS5	Высокая	1 минута
+91.206.148.243	59175	Russian Federation	260 мс	SOCKS4	Высокая	1 минута
+154.127.38.1	60020	Benin Cotonou	2980 мс	HTTP	Высокая	1 минута
+174.76.48.230	4145	United States	4540 мс	SOCKS4, SOCKS5	Высокая	1 минута
+43.227.135.214	4145	India Aizawl	1040 мс	SOCKS4	Высокая	1 минута
+45.175.64.170	4145	Honduras San Pedro Sula	2020 мс	SOCKS4	Высокая	1 минута
+111.90.179.74	8080	Cambodia	4520 мс	HTTP	Нет	1 минута
+92.242.255.47	31024	Croatia Gornji Kneginec	3540 мс	SOCKS4	Высокая	1 минута
+121.241.90.242	52115	India Pune	920 мс	SOCKS4	Высокая	1 минута
+72.195.34.41	4145	United States	3900 мс	SOCKS4, SOCKS5	Высокая	1 минута
+181.211.244.126	60415	Ecuador Guayaquil	2180 мс	SOCKS4	Высокая	1 минута
+170.177.253.23	8080	United States Phoenix	820 мс	HTTP	Нет	1 минута
+45.249.101.1	56457	Singapore	1240 мс	SOCKS4	Высокая	1 минута
+198.199.120.102	8080	United States New York	540 мс	HTTP	Высокая	1 минута
+1.179.180.98	4145	Thailand	1180 мс	SOCKS4	Высокая	1 минута
+210.245.51.20	4145	Vietnam Hanoi	1260 мс	SOCKS4	Высокая	1 минута
+174.76.48.252	4145	United States	5020 мс	SOCKS4, SOCKS5	Высокая	1 минута
+2.144.243.102	4153	Iran	940 мс	SOCKS4	Высокая	1 минута
+182.191.240.61	8080	Pakistan Lahore	4980 мс	HTTP	Нет	1 минута
+103.105.70.148	1089	Indonesia Jakarta	1620 мс	SOCKS4	Высокая	1 минута
+187.49.207.65	4153	Brazil Po?os de Caldas	1240 мс	SOCKS4	Высокая	1 минута
+184.178.172.18	15280	United States	5100 мс	SOCKS4, SOCKS5	Высокая	1 минута
+109.232.106.236	52435	Russian Federation Balashikha	140 мс	SOCKS4	Высокая	1 минута
+187.111.160.29	34296	Brazil Votorantim	1280 мс	SOCKS4	Высокая	1 минута
+125.209.116.138	56096	Pakistan	1300 мс	SOCKS4	Высокая	1 минута
+103.109.56.97	1080	Bangladesh	1240 мс	SOCKS4	Высокая	1 минута
+203.81.95.70	4153	Myanmar	4300 мс	SOCKS4	Высокая	1 минута
+109.196.119.59	4145	Poland Sedziszow Malopolski	300 мс	SOCKS4	Высокая	1 минута
+190.109.196.44	53916	Honduras San Pedro Sula	3960 мс	SOCKS4	Высокая	1 минута
+182.71.90.202	31585	India Delhi	2040 мс	SOCKS4	Высокая	4 минуты
+109.101.196.50	4145	Romania Iasi	340 мс	SOCKS4	Высокая	4 минуты
+159.203.44.177	3128	Canada Toronto	5100 мс	HTTP	Нет	4 минуты
+103.58.66.21	10801	India	1060 мс	SOCKS4	Высокая	4 минуты
+91.225.208.83	4145	Russian Federation Sayanogorsk	460 мс	SOCKS4	Высокая	4 минуты
+149.129.61.6	1080	Singapore	5100 мс	SOCKS4, SOCKS5	Высокая	4 минуты
+187.87.204.214	53709	Brazil Conceicao do Coite	2300 мс	SOCKS4	Высокая	4 минуты
+101.51.141.81	4153	Thailand	4220 мс	SOCKS4	Высокая	4 минуты
+103.248.248.146	1080	Indonesia Jakarta	1060 мс	SOCKS4	Высокая	4 минуты
+185.46.109.182	4145	Iran	3620 мс	SOCKS4	Высокая	4 минуты
+185.20.198.108	8080	Iraq	2820 мс	HTTP	Нет	4 минуты
+192.111.135.17	4145	United States	5100 мс	SOCKS4	Высокая	4 минуты
+186.159.115.66	48699	Colombia Facatativ?	4180 мс	SOCKS4	Высокая	4 минуты
+207.154.231.213	8080	Germany Frankfurt am Main	200 мс	HTTP	Высокая	4 минуты
+86.111.146.250	4145	Iraq	1520 мс	SOCKS4	Высокая	4 минуты
+92.51.73.14	4153	Georgia	580 мс	SOCKS4	Высокая	4 минуты
+86.111.144.10	4145	Iraq	1560 мс	SOCKS4	Высокая	4 минуты
+200.125.44.242	4145	Uruguay	1520 мс	SOCKS4	Высокая	4 минуты
+122.50.5.148	10000	Indonesia Tangerang	5100 мс	HTTP	Нет	4 минуты
+103.123.229.107	8080	Indonesia Jakarta	3980 мс	HTTP	Нет	4 минуты
+110.39.175.2	8080	Pakistan Sahiwal	3160 мс	HTTP	Нет	4 минуты
+159.203.61.169	3128	Canada Toronto	2840 мс	HTTP	Высокая	4 минуты
+103.35.132.50	33015	India Pune	820 мс	SOCKS4	Высокая	4 минуты
+103.141.158.35	8080	Pakistan Rawalpindi	4740 мс	HTTP	Нет	4 минуты
+174.64.199.82	4145	United States	5100 мс	SOCKS4, SOCKS5	Высокая	4 минуты
+103.81.114.182	4145	Myanmar	2300 мс	SOCKS4	Высокая	4 минуты
+93.64.183.162	32889	Italy Florence	480 мс	SOCKS4	Высокая	4 минуты
+189.203.194.2	1080	Mexico Hermosillo	2200 мс	SOCKS4	Высокая	4 минуты
+91.185.236.236	4145	Russian Federation Yakutsk	1560 мс	SOCKS4	Высокая	4 минуты
+109.170.64.98	3629	Russian Federation Tver	120 мс	SOCKS4	Высокая	4 минуты
+50.227.46.1	32482	United States Sandown	3780 мс	SOCKS4	Высокая	4 минуты
+27.54.166.212	57995	India Ahmedabad	1880 мс	SOCKS4	Высокая	4 минуты
+36.66.36.252	4153	Indonesia	5100 мс	SOCKS4	Высокая	4 минуты
+91.105.152.168	4145	Russian Federation Kamen'-na-Obi	300 мс	SOCKS4	Высокая	4 минуты
+109.245.236.109	4145	Serbia Belgrade	420 мс	SOCKS4	Высокая	4 минуты
+88.198.24.108	8080	Germany Nuremberg	240 мс	HTTP	Высокая	4 минуты
+176.98.156.64	4145	Russian Federation Izberbash	300 мс	SOCKS4	Высокая	4 минуты
+188.166.83.17	8080	Netherlands Amsterdam	260 мс	HTTP	Высокая	4 минуты
+82.117.234.133	4153	Ukraine Derhachi	300 мс	SOCKS4	Высокая	4 минуты
+41.72.203.66	32857	Kenya	1240 мс	SOCKS4	Высокая	4 минуты
+46.253.39.142	57136	Spain Barcelona	640 мс	SOCKS4	Высокая	4 минуты
+95.84.195.16	4145	Russian Federation Moscow	1120 мс	SOCKS4	Высокая	4 минуты
+101.51.139.179	8080	Thailand Bangkok	4520 мс	HTTP	Нет	4 минуты
+89.25.23.211	4153	Bulgaria Sofia	1440 мс	SOCKS4	Высокая	4 минуты
+190.138.206.18	31680	Argentina	3440 мс	SOCKS4	Высокая	4 минуты
+103.240.161.109	6667	India Ahmedabad	3100 мс	SOCKS5	Высокая	4 минуты
+188.166.83.17	3128	Netherlands Amsterdam	340 мс	HTTP	Высокая	4 минуты
+176.9.119.170	8080	Germany	240 мс	HTTP	Высокая	4 минуты
+190.109.167.9	40795	Colombia	1180 мс	SOCKS4	Высокая	4 минуты
+188.19.64.122	4145	Russian Federation	260 мс	SOCKS4	Высокая	5 минут
+170.177.253.24	8080	United States Phoenix	940 мс	HTTP	Нет	5 минут
+170.254.148.94	4153	Brazil Jaboatao dos Guararapes	1200 мс	SOCKS4	Высокая	5 минут
+81.12.119.166	8080	Iran	760 мс	HTTP	Высокая	5 минут
+67.22.223.9	39593	United States Post	1920 мс	SOCKS4	Высокая	5 минут
+14.102.44.1	34047	India	1000 мс	SOCKS4	Высокая	5 минут
+156.0.229.194	42692	South Africa	1120 мс	SOCKS4	Высокая	5 минут
+117.206.83.142	44550	India Gulbarga	1440 мс	SOCKS4	Высокая	5 минут
+211.35.73.30	4145	Korea	800 мс	SOCKS4	Высокая	5 минут
+94.232.11.178	58028	Russian Federation Elektrostal	1500 мс	SOCKS4	Высокая	5 минут
+170.0.52.6	4153	Brazil Vitorino Freire	1520 мс	SOCKS4	Высокая	5 минут
+190.0.242.217	51327	Colombia	2400 мс	SOCKS4	Высокая	5 минут
+177.86.115.2	44023	Brazil Vespasiano	1260 мс	SOCKS4	Высокая	5 минут
+85.112.76.58	32462	Lebanon Faitroun	1280 мс	SOCKS4	Высокая	5 минут
+83.169.238.190	33637	Russian Federation	1840 мс	SOCKS4	Высокая	5 минут
+189.199.106.202	42424	Mexico Zamora	1120 мс	SOCKS4	Высокая	5 минут
+58.162.229.173	55120	Australia Toowoomba	1540 мс	SOCKS4	Высокая	5 минут
+128.199.202.122	8080	Singapore	3920 мс	HTTP	Высокая	5 минут
+197.255.255.101	10808	Nigeria Lagos	1920 мс	SOCKS4	Высокая	5 минут
+37.98.231.2	1080	Iraq Baghdad	1640 мс	SOCKS4	Высокая	5 минут
+85.72.32.44	44550	Greece Athens	820 мс	SOCKS4	Высокая	5 минут
+87.117.169.23	30023	Russian Federation Kazan’	1220 мс	SOCKS4	Высокая	5 минут
+203.78.144.231	1080	Bangladesh Dhaka	2140 мс	SOCKS4	Высокая	5 минут
+138.68.240.218	3128	United States Santa Clara	780 мс	HTTP	Высокая	5 минут
+201.59.201.92	61150	Brazil	2020 мс	SOCKS4	Высокая	5 минут
+190.52.193.97	44087	Ecuador Pasaje	1140 мс	SOCKS4	Высокая	5 минут
+138.197.157.32	8080	Canada Toronto	640 мс	HTTP	Высокая	5 минут
+81.33.4.214	49311	Spain Logro?o	520 мс	SOCKS4	Высокая	5 минут
+191.96.42.80	8080	United States Chicago	1040 мс	HTTP	Высокая	5 минут
+77.241.20.215	55915	Russian Federation Kursk	280 мс	SOCKS4	Высокая	5 минут
+178.249.219.91	4145	Italy Castell'Alfero	360 мс	SOCKS4	Высокая	5 минут
+3.210.202.176	80	United States Ashburn	700 мс	HTTP	Высокая	5 минут
+186.10.118.187	8081	Chile Arica	5100 мс	HTTP	Нет	6 минут
+102.164.252.150	8080	Equatorial Guinea Bata	4120 мс	HTTP	Нет	6 минут
+43.239.152.43	8080	India Faridabad	4340 мс	HTTP	Нет	6 минут
+116.0.2.162	52076	Indonesia Jakarta	3900 мс	HTTP	Высокая	6 минут
+102.129.249.120	8080	United States Los Angeles	2180 мс	HTTP	Высокая	6 минут
+50.247.72.33	54321	United States San Francisco	1080 мс	SOCKS4	Высокая	7 минут
+94.76.92.10	4145	Ukraine Kyiv	5100 мс	SOCKS4	Высокая	7 минут
+194.44.61.82	3629	Ukraine Lviv	1160 мс	SOCKS4	Высокая	7 минут
+195.200.244.80	1080	Ukraine Chernivtsi	4460 мс	SOCKS4	Высокая	7 минут
+109.200.132.161	8888	Ukraine Simferopol	1920 мс	SOCKS4, SOCKS5	Высокая	7 минут
+194.12.121.100	53197	Ukraine	3300 мс	SOCKS4	Высокая	7 минут
+195.225.49.134	55774	Ukraine Kyiv	160 мс	SOCKS4	Высокая	7 минут
+95.158.7.234	43020	Ukraine Kyiv	120 мс	SOCKS4	Высокая	7 минут
+195.230.158.9	59341	Ukraine Kherson	160 мс	SOCKS4	Высокая	7 минут
+46.98.127.20	3629	Ukraine Dniprodzerzhynsk	440 мс	SOCKS4	Высокая	7 минут
+195.78.112.235	39401	Ukraine	3540 мс	SOCKS4	Высокая	7 минут
+178.150.194.243	4153	Ukraine Kharkiv	1200 мс	SOCKS4	Высокая	7 минут
+91.213.119.246	46024	Ukraine Khmilnyk	220 мс	SOCKS4	Высокая	7 минут
+92.249.122.108	58749	Ukraine Kyiv	340 мс	SOCKS4	Высокая	7 минут
+212.115.232.79	10800	Ukraine Dnipropetrovsk	1280 мс	SOCKS4	Высокая	7 минут
+91.230.199.174	32151	Ukraine	320 мс	SOCKS4	Высокая	7 минут
+194.126.183.171	57849	Ukraine Ivano-Frankivsk	260 мс	SOCKS4	Высокая	7 минут
+92.242.126.154	44718	Ukraine	1240 мс	SOCKS4	Высокая	7 минут
+46.172.69.163	32047	Ukraine Kharkiv	3120 мс	SOCKS4	Высокая	7 минут
+94.158.152.248	46846	Ukraine Odessa	1220 мс	SOCKS4	Высокая	7 минут
+178.216.2.229	1488	Ukraine Kharkiv	180 мс	SOCKS4	Высокая	7 минут
+91.211.172.104	46344	Ukraine	1160 мс	SOCKS4	Высокая	7 минут
+194.44.243.186	45529	Ukraine Lviv	160 мс	SOCKS4	Высокая	7 минут
+195.234.215.26	38629	Ukraine	1120 мс	SOCKS4	Высокая	7 минут
+46.219.80.142	45237	Ukraine Kyiv	160 мс	SOCKS4	Высокая	7 минут
+80.93.124.148	1080	Ukraine Brody	440 мс	SOCKS4	Высокая	7 минут
+89.22.249.241	4145	Ukraine Yalta	200 мс	SOCKS4	Высокая	7 минут
+46.172.69.163	32047	Ukraine Kharkiv	3120 мс	SOCKS4	Высокая	8 минут
+94.158.152.248	46846	Ukraine Odessa	1220 мс	SOCKS4	Высокая	8 минут
+178.216.2.229	1488	Ukraine Kharkiv	180 мс	SOCKS4	Высокая	8 минут
+91.211.172.104	46344	Ukraine	1160 мс	SOCKS4	Высокая	8 минут
+194.44.243.186	45529	Ukraine Lviv	160 мс	SOCKS4	Высокая	8 минут
+195.234.215.26	38629	Ukraine	1120 мс	SOCKS4	Высокая	8 минут
+46.219.80.142	45237	Ukraine Kyiv	160 мс	SOCKS4	Высокая	8 минут
+80.93.124.148	1080	Ukraine Brody	440 мс	SOCKS4	Высокая	8 минут
+89.22.249.241	4145	Ukraine Yalta	200 мс	SOCKS4	Высокая	8 минут
+176.98.75.120	49697	Ukraine Uman	240 мс	SOCKS4	Высокая	8 минут
+80.245.115.97	4145	Russian Federation Krasnodar	160 мс	SOCKS4	Высокая	8 минут
+91.200.125.75	4145	Ukraine Irpin	120 мс	SOCKS4	Высокая	8 минут
+109.86.244.225	57649	Ukraine Kharkiv	280 мс	SOCKS4	Высокая	8 минут
+195.162.81.91	34862	Ukraine Ivano-Frankivsk	240 мс	SOCKS4	Высокая	8 минут
+109.86.225.146	4145	Ukraine Kharkiv	1200 мс	SOCKS4	Высокая	8 минут
+176.104.52.46	45389	Ukraine Kyiv	1340 мс	SOCKS4	Высокая	8 минут
+159.224.220.63	10801	Ukraine Kyiv	1260 мс	SOCKS4	Высокая	8 минут
+82.207.59.154	3629	Ukraine Bershad	1140 мс	SOCKS4	Высокая	8 минут
+31.129.253.90	3629	Ukraine Izyum	1360 мс	SOCKS4	Высокая	8 минут
+212.1.71.130	4153	Ukraine Kherson	160 мс	SOCKS4	Высокая	8 минут
+185.32.63.21	4145	Ukraine Odessa	180 мс	SOCKS4	Высокая	8 минут
+46.63.81.195	4145	Ukraine Khmelnytskyy	180 мс	SOCKS4	Высокая	8 минут
+188.163.170.130	35578	Ukraine Alexandrovsk	1220 мс	SOCKS4	Высокая	8 минут
+109.86.190.92	1080	Ukraine Kharkiv	180 мс	SOCKS4	Высокая	8 минут
+212.3.109.7	4145	Ukraine Kryvyi Rih	180 мс	SOCKS4	Высокая	8 минут
+185.28.108.181	35130	Ukraine	280 мс	SOCKS4	Высокая	8 минут
+178.215.190.240	44202	Ukraine Chernivtsi	1240 мс	SOCKS4	Высокая	8 минут
+176.120.63.35	1080	Ukraine Chernivtsi	240 мс	SOCKS4	Высокая	8 минут
+178.158.64.20	4145	Ukraine Luhansk	100 мс	SOCKS4	Высокая	8 минут
+91.237.127.162	4145	Ukraine Odessa	140 мс	SOCKS4	Высокая	8 минут
+119.15.89.106	8080	Cambodia Phnom Penh	5100 мс	HTTP	Нет	9 минут
+1.255.48.197	8080	Korea	760 мс	HTTP	Нет	10 минут
+5.189.133.231	80	Germany	300 мс	HTTP	Высокая	13 минут
+105.27.238.160	80	Kenya Nairobi	4100 мс	HTTP	Низкая	13 минут
+161.202.226.194	8123	Japan Tokyo	1700 мс	HTTP, HTTPS	Высокая	13 минут
+105.27.238.164	80	Kenya Nairobi	860 мс	HTTP	Низкая	13 минут
+78.47.16.54	80	Germany Munich	260 мс	HTTP	Высокая	13 минут
+105.27.237.31	80	Kenya Nairobi	4700 мс	HTTP	Низкая	13 минут
+198.50.163.192	3129	Canada	1640 мс	HTTP	Высокая	13 минут
+203.202.245.58	80	Bangladesh	3140 мс	HTTP	Низкая	13 минут
+203.202.245.62	80	Bangladesh	1020 мс	HTTP	Низкая	13 минут
+150.109.32.166	80	Hong Kong	1220 мс	HTTP	Высокая	13 минут
+185.134.23.196	80	United Kingdom London	260 мс	HTTP	Высокая	13 минут
+98.162.96.52	4145	United States	5100 мс	SOCKS4	Высокая	13 минут
+192.111.131.1	4145	United States	5000 мс	SOCKS4	Высокая	13 минут
+72.195.34.59	4145	United States	5100 мс	SOCKS4, SOCKS5	Высокая	13 минут
+176.9.75.42	8080	Germany	220 мс	HTTP	Высокая	13 минут
+161.35.70.249	8080	United States	500 мс	HTTP	Высокая	13 минут
+98.188.47.132	4145	United States	5100 мс	SOCKS4	Высокая	13 минут
+174.77.111.196	4145	United States	5100 мс	SOCKS4	Высокая	13 минут
+54.254.24.192	1080	Singapore Singapore	2520 мс	SOCKS5	Высокая	13 минут
+174.77.111.197	4145	United States	4780 мс	SOCKS4, SOCKS5	Высокая	13 минут
+52.157.97.234	80	Netherlands Amsterdam	360 мс	HTTP	Средняя	13 минут
+174.76.48.232	4145	United States	3780 мс	SOCKS5	Высокая	13 минут
+198.8.94.174	4145	United States	4320 мс	SOCKS4	Высокая	13 минут
+198.8.94.170	4145	United States	2800 мс	SOCKS5	Высокая	13 минут
+174.64.199.79	4145	United States	3680 мс	SOCKS4, SOCKS5	Высокая	13 минут
+184.185.2.45	4145	United States	5100 мс	SOCKS5	Высокая	13 минут
+192.252.211.198	4145	Canada Toronto	1620 мс	SOCKS5	Высокая	13 минут
+192.111.137.34	4145	United States	5100 мс	SOCKS5	Высокая	13 минут
+174.75.211.222	4145	United States	5100 мс	SOCKS4, SOCKS5	Высокая	13 минут
+184.185.2.91	4145	United States	3400 мс	SOCKS4	Высокая	13 минут
+192.252.215.5	4145	Canada Toronto	3640 мс	SOCKS5	Высокая	13 минут
+204.101.61.82	4145	Canada Ottawa	3820 мс	SOCKS5	Высокая	13 минут
+192.111.143.92	4145	United States	2620 мс	SOCKS4	Высокая	14 минут
+72.195.34.58	4145	United States	3000 мс	SOCKS4, SOCKS5	Высокая	14 минут
+192.252.209.155	4145	Canada Toronto	5100 мс	SOCKS5	Высокая	14 минут
+178.165.44.122	1080	Ukraine Kharkiv	120 мс	SOCKS5	Высокая	14 минут
+192.252.208.67	4145	Canada Toronto	1640 мс	SOCKS4	Высокая	14 минут
+192.252.208.70	4145	Canada Toronto	5100 мс	SOCKS4, SOCKS5	Высокая	14 минут
+207.97.174.134	1080	United States New York	1840 мс	SOCKS5	Высокая	14 минут
+72.195.114.169	4145	United States	2640 мс	SOCKS4, SOCKS5	Высокая	14 минут
+113.160.188.21	1080	Vietnam Thanh H?a	2740 мс	SOCKS5	Высокая	14 минут
+192.252.210.238	4145	Canada Toronto	1300 мс	SOCKS4	Высокая	14 минут
+192.111.139.163	4145	United States	2280 мс	SOCKS4, SOCKS5	Высокая	14 минут
+98.190.102.62	4145	United States	1520 мс	SOCKS4, SOCKS5	Высокая	14 минут
+213.230.69.33	1080	Uzbekistan	720 мс	SOCKS4, SOCKS5	Высокая	14 минут
+173.254.222.162	1080	United States Los Angeles	1040 мс	SOCKS4	Высокая	14 минут
+88.202.177.242	1080	Netherlands Amsterdam	380 мс	SOCKS4, SOCKS5	Высокая	14 минут
+104.238.111.150	44183	United States	5100 мс	SOCKS5	Высокая	15 минут
+174.76.48.246	4145	United States	5100 мс	SOCKS4	Высокая	15 минут
+174.70.241.17	4145	United States	5100 мс	SOCKS4, SOCKS5	Высокая	15 минут
+174.76.48.225	4145	United States	4880 мс	SOCKS5	Высокая	15 минут
+174.76.48.233	4145	United States	4580 мс	SOCKS4	Высокая	15 минут
+174.76.48.235	4145	United States	3920 мс	SOCKS4	Высокая	15 минут
+72.210.252.134	46164	United States	3600 мс	SOCKS4, SOCKS5	Высокая	15 минут
+104.248.48.172	30588	United States North Bergen	940 мс	SOCKS4, SOCKS5	Высокая	15 минут
+207.154.215.52	30000	Germany Frankfurt am Main	1260 мс	SOCKS5	Высокая	15 минут
+104.248.48.252	30588	United States North Bergen	3860 мс	SOCKS4, SOCKS5	Высокая	15 минут
+178.128.239.129	9050	Canada Toronto	3720 мс	SOCKS4, SOCKS5	Высокая	15 минут
+188.166.22.22	9050	Netherlands Amsterdam	520 мс	SOCKS4, SOCKS5	Высокая	15 минут
+81.198.79.163	4153	Latvia Jelgava	3220 мс	SOCKS4	Высокая	17 минут
+195.13.201.98	47089	Latvia Jumprava	720 мс	SOCKS4	Высокая	17 минут
+188.64.183.169	1080	Latvia	360 мс	SOCKS4	Высокая	17 минут
+134.249.156.228	4469	Ukraine Poltava	3860 мс	HTTP	Нет	17 минут
+92.60.190.249	59816	Ukraine Bobrytsya	660 мс	SOCKS4	Высокая	18 минут
+95.158.63.46	50725	Ukraine Kyiv	180 мс	SOCKS4	Высокая	18 минут
+62.122.201.246	50129	Ukraine Ivano-Frankivsk	160 мс	SOCKS4	Высокая	18 минут
+195.234.215.81	38629	Ukraine Kyiv	3100 мс	SOCKS4	Высокая	18 минут
+194.8.145.62	4145	Ukraine Chernivtsi	1220 мс	SOCKS4	Высокая	18 минут
+85.238.104.235	58916	Ukraine Odessa	1260 мс	SOCKS4	Высокая	18 минут
+134.249.146.35	43002	Ukraine Zhytomyr	1140 мс	SOCKS4	Высокая	18 минут
+77.120.93.135	52263	Ukraine Rivne	240 мс	SOCKS4	Высокая	18 минут
+77.122.57.126	1080	Ukraine Kharkiv	3400 мс	SOCKS4	Высокая	18 минут
+91.200.114.243	44550	Ukraine Lviv	1180 мс	SOCKS4	Высокая	18 минут
+46.63.0.17	4145	Ukraine Kyiv	120 мс	SOCKS4	Высокая	18 минут
+77.121.5.131	1080	Ukraine Kherson	220 мс	SOCKS4	Высокая	18 минут
+178.215.163.218	4145	Ukraine Dnipropetrovsk	280 мс	SOCKS4	Высокая	18 минут
+109.86.134.93	43149	Ukraine Kyiv	1140 мс	SOCKS4	Высокая	18 минут
+46.33.253.29	58540	Ukraine Mykolayiv	160 мс	SOCKS4	Высокая	18 минут
+91.203.25.28	4153	Ukraine Kyiv	140 мс	SOCKS4	Высокая	18 минут
+46.219.46.150	4145	Ukraine Kyiv	160 мс	SOCKS4	Высокая	18 минут
+109.72.238.94	4145	Russian Federation Moscow	120 мс	SOCKS4	Высокая	18 минут
+208.102.51.6	58208	United States Alexandria	5100 мс	SOCKS4	Высокая	19 минут
+202.159.30.81	443	Indonesia	4160 мс	SOCKS4	Высокая	19 минут
+98.162.25.29	31679	United States	5100 мс	SOCKS5	Высокая	19 минут
+98.162.25.7	31653	United States	5100 мс	SOCKS4, SOCKS5	Высокая	19 минут
+192.252.209.155	14455	Canada Toronto	1460 мс	SOCKS5	Высокая	19 минут
+184.75.247.46	21426	United States	3880 мс	SOCKS5	Высокая	19 минут
+66.42.224.229	41679	United States Cincinnati	5100 мс	SOCKS5	Высокая	19 минут
+192.252.215.5	16137	Canada Toronto	5100 мс	SOCKS5	Высокая	19 минут
+109.194.175.135	9050	Russian Federation Tyumen	5100 мс	SOCKS4, SOCKS5	Высокая	19 минут
+72.195.114.184	4145	United States	1880 мс	SOCKS4, SOCKS5	Высокая	19 минут
+184.178.172.28	15294	United States Oklahoma City	5100 мс	SOCKS5	Высокая	19 минут
+184.75.247.56	5444	United States	3840 мс	SOCKS5	Высокая	19 минут
+174.70.241.8	24398	United States	5100 мс	SOCKS4, SOCKS5	Высокая	19 минут
+184.75.247.46	52117	United States	5100 мс	SOCKS4, SOCKS5	Высокая	19 минут
+184.75.247.37	21426	United States	5100 мс	SOCKS4	Высокая	19 минут
+103.216.82.30	6667	India Ahmedabad	5100 мс	SOCKS5	Высокая	19 минут
+88.202.177.242	1085	Netherlands Amsterdam	320 мс	SOCKS4, SOCKS5	Высокая	19 минут
+139.59.90.148	10458	India Bengaluru	2260 мс	SOCKS4, SOCKS5	Высокая	19 минут
+43.224.8.124	6667	India Surendranagar	5100 мс	SOCKS4	Высокая	19 минут
+184.178.172.5	15303	United States	5100 мс	SOCKS5	Высокая	19 минут
+150.129.171.123	6667	India	4440 мс	SOCKS4, SOCKS5	Высокая	19 минут
+187.16.109.209	9999	Brazil Rio de Janeiro	4740 мс	SOCKS5	Высокая	19 минут
+103.241.227.100	6667	India Vadodara	5100 мс	SOCKS4	Высокая	19 минут
+20.41.121.135	9300	Korea Seoul	1800 мс	SOCKS5	Высокая	19 минут
+104.248.63.49	30588	United States North Bergen	1240 мс	SOCKS5	Высокая	19 минут
+124.156.159.125	9999	Hong Kong Central	5100 мс	SOCKS5	Высокая	19 минут
+103.216.82.52	6667	India Ahmedabad	3660 мс	SOCKS4	Высокая	20 минут
+184.185.2.103	4145	United States	5100 мс	SOCKS5	Высокая	20 минут
+47.244.186.177	4576	United States	3900 мс	SOCKS5	Высокая	20 минут
+103.241.227.110	6667		3420 мс	SOCKS5	Высокая	20 минут
+62.122.213.164	8080	Russian Federation Moscow	1280 мс	SOCKS4, SOCKS5	Высокая	20 минут
+37.59.138.199	9050	France	2940 мс	SOCKS4	Высокая	20 минут
+104.248.48.251	30588	United States North Bergen	1000 мс	SOCKS5	Высокая	20 минут
+142.93.245.253	30588	United States North Bergen	3940 мс	SOCKS4	Высокая	20 минут
+173.254.222.170	1090	United States Los Angeles	1500 мс	SOCKS5	Высокая	20 минут
+135.181.91.172	7755	Germany	380 мс	SOCKS4, SOCKS5	Высокая	20 минут
+159.203.84.241	3128	United States Clifton	660 мс	HTTPS	Высокая	22 минуты
+62.210.177.105	3128	France Garges-l?s-Gonesse	320 мс	HTTP, HTTPS	Средняя	22 минуты
+198.199.86.11	3128	United States North Bergen	2000 мс	HTTP	Высокая	22 минуты
+207.154.231.213	3128	United States New York	200 мс	HTTP	Высокая	22 минуты
+88.198.24.108	3128	Germany Nuremberg	220 мс	HTTP	Высокая	22 минуты
+176.9.119.170	3128	Germany	220 мс	HTTP	Высокая	22 минуты
+176.9.75.42	3128	Germany	240 мс	HTTP	Высокая	22 минуты
+169.57.157.148	80	Brazil S?o Paulo	1120 мс	HTTP, HTTPS	Высокая	24 минуты
+52.149.152.236	80	United States Washington	580 мс	HTTP	Высокая	24 минуты
+110.74.195.64	32744	Cambodia	4140 мс	SOCKS4	Высокая	24 минуты
+173.254.222.170	1085	United States Los Angeles	1560 мс	SOCKS5	Высокая	25 минут
+165.22.213.55	3128	India Bengaluru	2760 мс	HTTP	Нет	28 минут
+109.105.205.230	4145	Bosnia and Herzegovina	800 мс	SOCKS4	Высокая	29 минут
+91.183.222.209	1080	Belgium Xhoris	400 мс	SOCKS4	Высокая	29 минут
+201.55.103.34	4145	Brazil	1400 мс	SOCKS4	Высокая	30 минут
+79.171.13.166	34003	Russian Federation Tver	340 мс	SOCKS4	Высокая	33 минуты
+134.209.29.120	1080	United Kingdom London	5100 мс	SOCKS5	Высокая	38 минут
+161.35.70.249	1080	United States	980 мс	SOCKS5	Высокая	38 минут
+88.202.177.242	1090	Netherlands Amsterdam	460 мс	SOCKS5	Высокая	38 минут
+103.240.168.138	6667	India Gandhinagar	1640 мс	SOCKS4	Высокая	40 минут
+46.151.150.11	9999	Ukraine Simferopol	500 мс	SOCKS4	Высокая	40 минут
+157.119.207.10	6667	India Satara	2340 мс	SOCKS4, SOCKS5	Высокая	40 минут
+45.169.24.2	4145	Brazil Americana	1220 мс	SOCKS4	Высокая	41 минута
+195.154.63.178	5836	France Paris	3580 мс	HTTP	Нет	42 минуты
+103.233.152.140	8080	Indonesia	4440 мс	HTTP	Нет	42 минуты
+187.41.26.245	4145	Brazil Palmeira dos Indios	2520 мс	SOCKS4	Высокая	42 минуты
+103.220.6.254	4145	Malaysia Johor Bahru	4040 мс	SOCKS4	Высокая	42 минуты
+213.6.141.146	8291	Palestinian Territory Gaza	1600 мс	SOCKS4	Высокая	42 минуты
+36.67.71.67	4153	Indonesia Jakarta	1980 мс	SOCKS4	Высокая	42 минуты
+202.138.249.244	54041	Indonesia Bandung	1860 мс	SOCKS4	Высокая	42 минуты
+186.211.106.227	37406	Brazil Canoinhas	1300 мс	SOCKS4	Высокая	42 минуты
+203.173.94.2	4145	Indonesia	1580 мс	SOCKS4	Высокая	42 минуты
+201.234.185.147	55936	Colombia Guadalupe	2060 мс	SOCKS4	Высокая	42 минуты
+190.12.95.170	37209	Peru Lima	1120 мс	SOCKS4	Высокая	42 минуты
+103.122.66.184	4153	Indonesia Adiwarno	4240 мс	SOCKS4	Высокая	42 минуты
+112.78.134.154	4145	Indonesia Jakarta	4780 мс	SOCKS4	Высокая	42 минуты
+178.130.35.187	4145	Russian Federation St Petersburg	160 мс	SOCKS4	Высокая	42 минуты
+185.124.183.102	4145	Italy Montefusco	1720 мс	SOCKS4	Высокая	42 минуты
+14.63.228.217	80	Korea Bucheon-si	4820 мс	HTTP	Высокая	42 минуты
+119.42.107.145	4145	Thailand Thoen	1360 мс	SOCKS4	Высокая	42 минуты
+36.67.158.49	65301	Indonesia	4380 мс	HTTP	Высокая	42 минуты
+85.90.163.235	4153	Hungary Kecskem?t	260 мс	SOCKS4	Высокая	42 минуты
+191.241.33.51	4145	Brazil Fortaleza	4300 мс	SOCKS4	Высокая	42 минуты
