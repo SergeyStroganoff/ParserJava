@@ -36,12 +36,10 @@ public class newHTML {
         } catch (IOException e) {
             System.out.println("Incorect adres of html" + e.toString());
             if (e.toString().contains("timed") || e.toString().contains("503") ) { //Connection timed out: no further information)) //
-                out.println("Зафиксировали бееее ! от сервера");
-
+                out.println("Зафиксировали Беее от сервера");
                 newExel.writeArrayInExell(Parser.listOfALLEmails);
                 newExel.saveExel();
                 //System.exit(0);
-
 
                 try {
                     Thread.sleep(10000);

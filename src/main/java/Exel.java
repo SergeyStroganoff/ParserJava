@@ -7,8 +7,6 @@ import org.apache.poi.ss.usermodel.Workbook;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 
 public class Exel {
@@ -31,7 +29,7 @@ public class Exel {
     }
 
 
-    public  void writeEmailStringIntoExellFile (String stringOfEmail){
+    public void writeEmailStringIntoExellFile(String stringOfEmail) {
 
         Row row = sheet.createRow(countOfStringEmails + 1);
         Cell name = row.createCell(0);
@@ -65,9 +63,6 @@ public class Exel {
         }
 
     }
-
-
-
 
 
 }
