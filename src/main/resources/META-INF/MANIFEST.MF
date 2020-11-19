@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: Parser
+Class-Path: stax-api-1.0.1.jar jsoup-1.13.1.jar poi-3.8.jar json-simple-
+ 1.1.jar poi-ooxml-3.8.jar annotations-java5-20.1.0.jar dom4j-1.6.1.jar 
+ xmlbeans-2.3.0.jar poi-ooxml-schemas-3.8.jar xml-apis-1.0.b2.jar common
+ s-codec-1.5.jar jna-5.6.0.jar
+

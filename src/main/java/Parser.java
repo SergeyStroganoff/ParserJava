@@ -10,7 +10,7 @@ public class Parser {
     public static void main(String[] args) {
 
 
-        String site = "https://staritsa.jsprav.ru";   //"https://lihoslavl.jsprav.ru";// "M:\\tver.jsprav.htm"; //"https://tver.jsprav.ru";
+        String site = "https://tver.jsprav.ru";   //"https://lihoslavl.jsprav.ru";// "M:\\tver.jsprav.htm"; //"https://tver.jsprav.ru";
 
         Map<String, String> bigMapOfHref = new HashMap<>();
         Map<String, String> smallMapOfHref = new HashMap<>();
@@ -19,7 +19,7 @@ public class Parser {
 
 
         Date curentData = new Date();
-        final String filePathname = "D:\\mail" + curentData.getTime() + ".xls";
+        final String filePathname =  Thread.currentThread().getContextClassLoader().getResource("").getPath() + curentData.getTime() + ".xls";
         Exel newExel = new Exel(filePathname); // инициализируем  новый файл эксель
         Random random = new Random();
         Proxy superProxy = new Proxy("M:\\Програмирование\\MyProjects\\ParserHTML\\proxy.txt");
